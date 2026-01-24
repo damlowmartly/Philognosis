@@ -213,3 +213,6 @@ header {
 .video-links a:hover {
     background-color: #d5dbdb;
 }
+pre{
+    font-size:1.1rem;
+}
