@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning Library</title>
     <link rel="stylesheet" href="algebra.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!-- Search Bar Header -->
     <header>
+      <div class="logo no-underline">
+        <a href="index.html">
+          <h1>LearnLibrary 📚</h1>
+        </a>
+      </div>
       <input type="text" id="searchBar" placeholder="Search topics..." />
+      <div class="search-suggestions" id="searchSuggestions"></div>
     </header>
 
     <div class="container">
@@ -31,11 +38,7 @@
 
         <!-- Demo Picture Section -->
         <section class="demo-section">
-          <img
-            id="demoImage"
-            src="https://via.placeholder.com/600x400?text=Algebra+1+Demo"
-            alt="Demo Picture"
-          />
+          <img id="demoImage" src="./images/algebra1.jpg" alt="Demo Picture" />
         </section>
 
         <!-- Why Section -->
