@@ -4,17 +4,12 @@
   box-sizing: border-box;
 }
 .greeting-content {
-  position: relative;
+  
 
   padding: 2rem;
   max-width: 600px;
-
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
-    ),
-    url("https://i.pinimg.com/1200x/28/a1/e3/28a1e3e03810602b58752f8a367afea5.jpg");
+  opacity:60%;
+  background-image:url("https://i.pinimg.com/1200x/28/a1/e3/28a1e3e03810602b58752f8a367afea5.jpg");
 
   background-size: cover;
   background-position: center;
