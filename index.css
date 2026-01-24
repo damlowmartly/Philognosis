@@ -6,6 +6,7 @@
 span{
   z-index:1000;
   color:white;
+  opacity:100%;
 }
 .greeting-section{
   height:100%;
