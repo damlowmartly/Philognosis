@@ -100,7 +100,8 @@ header {
 .greeting-content {
   flex: 1;
   max-width: 600px;
-  z-index:3;
+  z-index:4;
+  opacity:100%
 }
 
 .greeting-section h1 {
