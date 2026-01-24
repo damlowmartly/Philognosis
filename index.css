@@ -3,12 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-span{
-  z-index:1000;
-  color:white;
-  opacity:100%;
-}
-.greeting-section{
+
+.greeting-section2{
   height:100%;
   width:100%;
   background-image:url("https://i.pinimg.com/1200x/66/6c/ef/666cef33089db06d5232069b03940dcb.jpg");
