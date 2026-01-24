@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+span{
+  z-index:1000;
+}
 .greeting-content{
   height:100%;
   width:100%;
