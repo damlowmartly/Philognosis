@@ -3,6 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+.greeting-content {
+  width: 100%;
+  height: 16.67vh; /* 1/6 of the screen */
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://i.pinimg.com/1200x/28/a1/e3/28a1e3e03810602b58752f8a367afea5.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+}
+
 
 body {
   font-family: Arial, sans-serif;
