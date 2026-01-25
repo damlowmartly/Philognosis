@@ -3,7 +3,7 @@
 const topicData = {
   algebra1: {
     title: "Algebra 1",
-    image: "./images/algebra1.jpg",
+    image: "./images/algebraOne1.jpg",
     why: "Algebra 1 is the foundation of all higher mathematics. It introduces you to variables, equations, and functions that are essential for problem-solving in everyday life and advanced studies.",
     explanation:
       "In Algebra 1, you'll learn to work with linear equations, solve for unknown variables, understand the concept of functions, and graph equations on a coordinate plane. This course builds critical thinking and analytical skills.",
