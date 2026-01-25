@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry</title>
+    <link rel="stylesheet" href="algebra.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Search Bar Header -->
+    <header>
+      <a
+        href="index.html"
+        style="text-decoration: none; color: white; box-shadow: 2x 2x 3x"
+      >
+        <h1 title="Return to Homepage">&larrhk;</h1>
+      </a>
+      <div class="logo no-underline">
+        <h1>You don’t need to be perfect, just keep learning.</h1>
+      </div>
+
+      <input type="text" id="searchBar" placeholder="Search topics..." />
+      <div class="search-suggestions" id="searchSuggestions"></div>
+    </header>
+
+    <div class="container">
+      <!-- Left Sidebar -->
+      <aside class="sidebar">
+        <h3>Topics</h3>
+        <ul id="topicList">
+          <li class="active" data-topic="geometry1">Geometry 1</li>
+          <li data-topic="geometry2">Geometry 2</li>
+          <li data-topic="geometry3">Geometry 3</li>
+          <li data-topic="geometry4">Geometry 4</li>
+          <li data-topic="geometry5">Geometry 5</li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <h1 class="topic-title" id="topicTitle">Geometry 1</h1>
+
+        <!-- Demo Picture Section -->
+        <section class="demo-section">
+          <img
+            id="demoImage"
+            src="https://via.placeholder.com/600x400?text=Geometry+1+Demo"
+            alt="Demo Picture"
+          />
+        </section>
+
+        <!-- Why Section -->
+        <section class="why-section">
+          <h2>Why Learn This?</h2>
+          <p id="whyText">
+            Geometry 1 introduces you to the basics of shapes, angles, and
+            lines. These foundational concepts are essential for understanding
+            the world around us, from architecture to art.
+          </p>
+        </section>
+
+        <!-- Explanation Section -->
+        <section class="explanation-section">
+          <h2>Explanation</h2>
+          <p id="explanationText">
+            In Geometry 1, you'll learn about points, lines, angles, and basic
+            shapes like rectangles and triangles. You'll discover how to
+            calculate perimeters, areas, and work with complementary and
+            supplementary angles.
+          </p>
+        </section>
+
+        <!-- Quiz Section -->
+        <section class="quiz-section">
+          <h2>Practice Quiz - <span id="quizProgress">Question 1/10</span></h2>
+          <div id="quizContainer">
+            <div class="quiz-question">
+              <p id="quizQuestion"></p>
+              <div id="quizOptions"></div>
+            </div>
+            <button
+              id="nextBtn"
+              onclick="nextGeometryQuestion()"
+              style="
+                display: none;
+                margin-top: 15px;
+                padding: 10px 20px;
+                background-color: #27ae60;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+              "
+            >
+              Next Question
+            </button>
+          </div>
+          <div id="quizResults" style="display: none">
+            <h3>Quiz Complete! 🎉</h3>
+            <p
+              id="scoreDisplay"
+              style="
+                font-size: 24px;
+                font-weight: bold;
+                color: #27ae60;
+                margin: 20px 0;
+              "
+            ></p>
+            <button
+              onclick="restartGeometryQuiz()"
+              style="
+                padding: 10px 20px;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+              "
+            >
+              Restart Quiz
+            </button>
+          </div>
+        </section>
+
+        <!-- Recommended Videos Section -->
+        <section class="video-section">
+          <h2>Recommended Videos</h2>
+          <div class="video-links" id="videoLinks">
+            <a href="https://www.youtube.com" target="_blank"
+              >📺 Introduction to Angles</a
+            >
+            <a href="https://www.youtube.com" target="_blank"
+              >📺 Basic Shapes and Perimeter</a
+            >
+            <a href="https://www.youtube.com" target="_blank"
+              >📺 Area of Rectangles</a
+            >
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Load JavaScript files in order of dependency -->
+    <script src="js/utils.js"></script>
+    <script src="js/geometryQuestionGenerators.js"></script>
+    <script src="js/geometryTopicData.js"></script>
+    <script src="js/geometryUI.js"></script>
+  </body>
+</html>
