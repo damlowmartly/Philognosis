@@ -113,7 +113,7 @@ const geometryTopicData = {
   },
   geometry6: {
     title: "Geometry 6: Polygons & Quadrilaterals",
-    image: "../../images/geometry1.png",
+    image: "../../images/geometry6.jpg",
     why: "Polygons and quadrilaterals appear everywhere in design, architecture, and nature. Understanding their properties is essential for geometry, art, construction, and computer graphics.",
     explanation:
       "Geometry 6 expands beyond triangles to multi-sided figures. You'll learn about polygons (closed figures with straight sides) and calculate their interior angles using (n-2)×180° and exterior angles (always sum to 360°). You'll study quadrilaterals in depth: squares (all sides equal, all angles 90°), rectangles (opposite sides equal, all angles 90°), parallelograms (opposite sides parallel and equal), trapezoids (one pair of parallel sides), rhombuses (all sides equal), and kites (two pairs of adjacent equal sides). You'll calculate perimeters and areas for each shape.",
@@ -135,7 +135,7 @@ const geometryTopicData = {
   },
   geometry7: {
     title: "Geometry 7: Circles & Circle Theorems",
-    image: "../../images/geometry2.png",
+    image: "../../images/geometry7.png",
     why: "Circles are fundamental shapes in nature, technology, and design - from wheels to planets to gears. Understanding circles is essential for engineering, physics, and advanced mathematics.",
     explanation:
       "Geometry 7 focuses on circles and their properties. You'll learn circle components: center, radius (distance from center to edge), diameter (twice the radius), chord (line segment connecting two points on circle), arc (part of the circumference), and sector (pie slice). You'll master circle formulas: circumference (2πr or πd) and area (πr²). You'll explore circle theorems: inscribed angles, central angles, angles formed by chords, secants, and tangents. These concepts are crucial for trigonometry and calculus.",
@@ -157,7 +157,7 @@ const geometryTopicData = {
   },
   geometry8: {
     title: "Geometry 8: 3D Geometry, Coordinate Geometry & Proofs",
-    image: "../../images/geometry3.jpg",
+    image: "../../images/geometry8.png",
     why: "3D geometry helps you understand the physical world around you. Coordinate geometry bridges algebra and geometry, essential for computer graphics, physics, and calculus. Proofs develop critical thinking and logical reasoning.",
     explanation:
       "Geometry 8 covers three advanced topics. First, 3D geometry: learn about cubes, rectangular prisms, cylinders, cones, spheres, and pyramids. Calculate volume and surface area for each. Second, coordinate geometry: work with the coordinate plane, plot points (x, y), use the distance formula √[(x₂-x₁)² + (y₂-y₁)²], midpoint formula ((x₁+x₂)/2, (y₁+y₂)/2), and slope (rise/run). Study transformations: translations (sliding), rotations (turning), reflections (flipping), and dilations (resizing). Third, geometric proofs: learn to use definitions, postulates (statements accepted as true), and theorems (proven statements) to prove geometric relationships using two-column proofs, paragraph proofs, and flowchart proofs.",
