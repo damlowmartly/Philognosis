@@ -1,28 +1,44 @@
 // Topic Data Configuration
 
 const topicData = {
-  algebra1: {
-    title: "Algebra 1",
-    image: "./images/algebraOne1.jpg",
-    why: "Algebra 1 is the foundation of all higher mathematics. It introduces you to variables, equations, and functions that are essential for problem-solving in everyday life and advanced studies.",
-    explanation:
-      "In Algebra 1, you'll learn to work with linear equations, solve for unknown variables, understand the concept of functions, and graph equations on a coordinate plane. This course builds critical thinking and analytical skills.",
-    quizGenerator: generateAlgebra1Questions,
-    videos: [
-      {
-        title: "📺 Introduction to Algebra 1",
-        url: "https://www.youtube.com/watch?v=MHeirBPOI6w",
-      },
-      {
-        title: "📺 Solving Linear Equations",
-        url: "https://www.youtube.com/watch?v=7DPWeBszNSM",
-      },
-      {
-        title: "📺 Graphing Functions",
-        url: "https://www.youtube.com/watch?v=kvU9sOzT2mk",
-      },
-    ],
-  },
+algebra1: {
+  title: "Algebra 1",
+  image: "./images/algebraOne1.jpg",
+  why: "Algebra 1 is the foundation of all higher mathematics. It introduces you to variables, equations, and functions that are essential for problem-solving in everyday life and advanced studies.",
+  explanation: `
+Algebra 1 introduces you to equations and variables. A variable is the value we are solving for, and it can be any number that makes both sides of an equation equal.
+
+For example, in the expression 3x + 4 = 28, the term 3x means 3 × x, not 3 + x. To solve an equation, we find the value of x that makes both sides equal.
+
+If we test x = 8:
+3(8) + 4 = 28  
+24 + 4 = 28  
+28 = 28  
+
+This shows that x = 8 is the correct solution.
+
+When solving equations like 3x = 9, we divide both sides by 3 because 3x means x added three times. Dividing 9 into three equal parts gives:
+9 ÷ 3 = 3
+
+So, x = 3.
+`,
+  quizGenerator: generateAlgebra1Questions,
+  videos: [
+    {
+      title: "📺 Introduction to Algebra 1",
+      url: "https://www.youtube.com",
+    },
+    {
+      title: "📺 Solving Linear Equations",
+      url: "https://www.youtube.com",
+    },
+    {
+      title: "📺 Graphing Functions",
+      url: "https://www.youtube.com",
+    },
+  ],
+},
+
   algebra2: {
     title: "Algebra 2",
     image: "./images/algebra2.jpg",
