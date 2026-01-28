@@ -40,27 +40,35 @@ So, x = 3.
 },
 
   algebra2: {
-    title: "Algebra 2",
-    image: "./images/algebra2.jpg",
-    why: "Algebra 2 builds on Algebra 1 concepts and introduces more complex functions, including quadratic, exponential, and logarithmic functions. It's crucial for STEM fields and standardized tests.",
-    explanation:
-      "Algebra 2 covers polynomials, rational expressions, complex numbers, and conic sections. You'll develop advanced problem-solving skills and learn to model real-world situations mathematically.",
-    quizGenerator: generateAlgebra2Questions,
-    videos: [
-      {
-        title: "📺 Quadratic Functions",
-        url: "https://www.youtube.com/watch?v=IWigvJcCAJ0",
-      },
-      {
-        title: "📺 Exponential Growth",
-        url: "https://www.youtube.com/watch?v=IWigvJcCAJ0",
-      },
-      {
-        title: "📺 Logarithms Explained",
-        url: "https://www.youtube.com/watch?v=kqVpPSzkTYA",
-      },
-    ],
-  },
+  title: "Algebra 2",
+  image: "./images/algebraTwo1.jpg",
+  why: "Algebra 2 expands on the concepts learned in Algebra 1 and introduces more advanced ideas such as quadratic equations, polynomials, and exponential functions. These skills are essential for higher-level math, science, and real-world problem solving.",
+  explanation: `
+In Algebra 2, you build on your understanding of variables and equations by working with more complex expressions and functions.
+
+You will learn how to solve quadratic equations, factor polynomials, and work with exponents and radicals. Algebra 2 also introduces new types of functions such as exponential and rational functions.
+
+A major focus is understanding how equations behave when graphed. By analyzing graphs, you can see how changing values affects the shape and position of a function.
+
+These skills help you model real-life situations such as population growth, physics problems, and financial calculations.
+`,
+  quizGenerator: generateAlgebra2Questions,
+  videos: [
+    {
+      title: "📺 Introduction to Algebra 2",
+      url: "https://www.youtube.com/watch?v=0EnklHkVKXI",
+    },
+    {
+      title: "📺 Quadratic Equations Explained",
+      url: "https://www.youtube.com/watch?v=Z9mZ9Kz6kL0",
+    },
+    {
+      title: "📺 Exponents and Radicals",
+      url: "https://www.youtube.com/watch?v=7vGvR7ZCwqk",
+    },
+  ],
+},
+
   algebra3: {
     title: "Algebra 3",
     image: "./images/intermediateAlgebra.png",
