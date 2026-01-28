@@ -11,15 +11,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 What is Geometry?",
-        url: "https://www.youtube.com/watch?v=HSOtku1j600",
+        url: "https://www.youtube.com/watch?v=302eJ3TzJQU",
       },
       {
         title: "📺 Points, Lines, and Planes",
-        url: "https://www.youtube.com/watch?v=oxhXz9_uyiM",
+        url: "https://www.youtube.com/watch?v=k5etrWdIY6o",
       },
       {
         title: "📺 Geometric Notation",
-        url: "https://www.youtube.com/watch?v=TRZnBSkgYd4",
+        url: "https://www.youtube.com/watch?v=zRKZ0-kOUZM",
       },
     ],
   },
@@ -33,15 +33,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 Types of Angles",
-        url: "https://www.youtube.com/watch?v=kRMw5Iy5Bsk",
+        url: "https://www.youtube.com/watch?v=UsE1hu-q0Cs",
       },
       {
         title: "📺 Complementary and Supplementary Angles",
-        url: "https://www.youtube.com/watch?v=yzMDV7n6oCc",
+        url: "https://www.youtube.com/watch?v=Qpq_XEeBBZw",
       },
       {
         title: "📺 Vertical and Adjacent Angles",
-        url: "https://www.youtube.com/watch?v=Dw_jDAadrWU",
+        url: "https://www.youtube.com/watch?v=08UccEsoKN4",
       },
     ],
   },
@@ -55,15 +55,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 Parallel Lines Introduction",
-        url: "https://www.youtube.com/watch?v=uj7edUWLr80",
+        url: "https://www.youtube.com/watch?v=HdNCiP5znT8",
       },
       {
         title: "📺 Transversals and Angle Relationships",
-        url: "https://www.youtube.com/watch?v=BqpU5vxksT8",
+        url: "https://www.youtube.com/watch?v=e4o7X6LyX-I",
       },
       {
         title: "📺 Proving Lines Parallel",
-        url: "https://www.youtube.com/watch?v=HDWw5xbQuL8",
+        url: "https://www.youtube.com/watch?v=yLWm_IlWBIg",
       },
     ],
   },
@@ -77,15 +77,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 Triangle Basics",
-        url: "https://www.youtube.com/watch?v=lIJgN2KULnQ",
+        url: "https://www.youtube.com/watch?v=q7vI2oXL0gQ",
       },
       {
         title: "📺 Classifying Triangles",
-        url: "https://www.youtube.com/watch?v=eZyCLEqk2gg",
+        url: "https://www.youtube.com/watch?v=H62faKsyemc ",
       },
       {
         title: "📺 Triangle Congruence Rules",
-        url: "https://www.youtube.com/watch?v=YhPrRy3BJ3w",
+        url: "https://www.youtube.com/watch?v=vGuiy7NnJlM",
       },
     ],
   },
@@ -99,15 +99,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 Pythagorean Theorem",
-        url: "https://www.youtube.com/watch?v=qcb-mcREIi0",
+        url: "https://www.youtube.com/watch?v=nCD-bAEbB3I",
       },
       {
         title: "📺 Triangle Area and Perimeter",
-        url: "https://www.youtube.com/watch?v=qcb-mcREIi0",
+        url: "https://www.youtube.com/watch?v=JCWJihpZ-Lo",
       },
       {
         title: "📺 Similar Triangles",
-        url: "https://www.youtube.com/watch?v=GqHWdTLL8Qw",
+        url: "https://www.youtube.com/watch?v=YiFwvAFk-xs",
       },
     ],
   },
@@ -121,15 +121,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 Polygons and Interior Angles",
-        url: "https://www.youtube.com/watch?v=HSOtku1j600",
+        url: "https://www.youtube.com/watch?v=9_Y8P3oHwL0",
       },
       {
         title: "📺 Quadrilaterals Overview",
-        url: "https://www.youtube.com/watch?v=oxhXz9_uyiM",
+        url: "https://www.youtube.com/watch?v=ogcH3eM5beM",
       },
       {
         title: "📺 Properties of Parallelograms",
-        url: "https://www.youtube.com/watch?v=TRZnBSkgYd4",
+        url: "https://www.youtube.com/watch?v=ogcH3eM5beM",
       },
     ],
   },
@@ -143,15 +143,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 Circle Basics",
-        url: "https://www.youtube.com/watch?v=kRMw5Iy5Bsk",
+        url: "https://www.youtube.com/watch?v=Fzaof9cX-PM",
       },
       {
         title: "📺 Circle Circumference and Area",
-        url: "https://www.youtube.com/watch?v=yzMDV7n6oCc",
+        url: "https://www.youtube.com/watch?v=O-cawByg2aA",
       },
       {
         title: "📺 Circle Theorems",
-        url: "https://www.youtube.com/watch?v=Dw_jDAadrWU",
+        url: "https://www.youtube.com/watch?v=O-cawByg2aA",
       },
     ],
   },
@@ -165,15 +165,15 @@ const geometryTopicData = {
     videos: [
       {
         title: "📺 3D Shapes and Volume",
-        url: "https://www.youtube.com/watch?v=uj7edUWLr80",
+        url: "https://www.youtube.com/watch?v=wWL03U_BgvU",
       },
       {
         title: "📺 Coordinate Geometry",
-        url: "https://www.youtube.com/watch?v=BqpU5vxksT8",
+        url: "https://www.youtube.com/watch?v=wWL03U_BgvU",
       },
       {
         title: "📺 Introduction to Geometric Proofs",
-        url: "https://www.youtube.com/watch?v=HDWw5xbQuL8",
+        url: "https://www.youtube.com/watch?v=779-nVrrDiQ",
       },
     ],
   },
